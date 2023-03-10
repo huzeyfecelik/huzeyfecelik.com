@@ -1,9 +1,42 @@
-img {
-  display: block;
-  margin: 0 auto;
-  width: 600px;
-}
-
 body {
   background-color: black;
+}
+
+.main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 350px;
+  margin-right: 300px;
+  width: 700px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace;
+}
+
+.contact {
+  margin-top: 300px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace;
+}
+
+p {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace;
+}
+
+.link-picture {
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 220px;
+  height: 220px;
+  object-fit: contain;
+  object-position: center;
 }
