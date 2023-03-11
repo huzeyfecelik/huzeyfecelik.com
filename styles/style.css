@@ -40,3 +40,7 @@ p {
   object-fit: contain;
   object-position: center;
 }
+
+.email {
+  color: whitesmoke;
+}
