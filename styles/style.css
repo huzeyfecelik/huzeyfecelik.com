@@ -10,7 +10,13 @@ body {
   width: 700px;
 }
 
-h1,
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace;
+  font-size: 50px;
+}
+
 h2,
 h3,
 h4 {
@@ -33,10 +39,21 @@ p {
 }
 
 .link-picture {
-  margin-left: 35%;
-  margin-right: 35%;
-  width: 220px;
-  height: 220px;
+  filter: brightness(0) invert(1);
+  margin-left: 42%;
+  margin-right: 50%;
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.link-picture-2 {
+  filter: brightness(0) invert(1);
+  margin-left: 42%;
+  margin-right: 50%;
+  width: 110px;
+  height: 110px;
   object-fit: contain;
   object-position: center;
 }
