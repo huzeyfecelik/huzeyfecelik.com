@@ -58,6 +58,16 @@ p {
   object-position: center;
 }
 
+.link-picture-3 {
+  filter: brightness(0) invert(1);
+  margin-left: 42%;
+  margin-right: 50%;
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  object-position: center;
+}
+
 .email {
   color: whitesmoke;
 }
